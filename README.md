@@ -150,7 +150,7 @@ data-science-portfolio/
 
 ## 📫 Let's Connect
 
-Looking for: **Applied Data Scientist / Data Scientist** roles in Industrial Analytics, Pharma, Diagnostics, or Manufacturing. Seeking opportunities to apply domain expertise to solve complex data problems.
+Looking for: **Applied Data Scientist / Data Scientist** roles in Industry 4.0, Pharma, Diagnostics, or Manufacturing. Seeking opportunities to apply domain expertise to solve complex data problems.
 
 - 📧 **Email:** [alexdbatista@gmail.com](mailto:alexdbatista@gmail.com)
 - 🔗 **LinkedIn:** [linkedin.com/in/alexdbatista](https://linkedin.com/in/alexdbatista)
