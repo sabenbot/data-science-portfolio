@@ -4,6 +4,20 @@ Analytical Chemist | Data Scientist | 10+ Years in Research & Diagnostics
 
 ---
 
+## 🎯 Quick Summary
+
+**10+ years** combining analytical chemistry expertise with machine learning for pharma, diagnostics, and industrial analytics.
+
+**Core Strengths:**
+- ✅ **Python & ML:** Scikit-Learn, SHAP, PCA, Random Forest, Time-Series Analysis
+- ✅ **Domain Expertise:** LC-MS, GC-MS, Sensor Instrumentation, Chemical Data
+- ✅ **Real-World ML:** Biomarker Discovery, Predictive Maintenance, Sensor Drift Detection
+- ✅ **Leadership:** Research Group Leader (Germany), Professor (Brazil), 50 Publications
+
+**Target Industries:** Pharma • Diagnostics • Manufacturing • Industrial IoT
+
+---
+
 ## 👨‍🔬 About Me
 
 I am an Analytical Chemist (PhD, USP-Brazil) applying my research expertise to **data science and machine learning** in industry. My background includes 6 years as **Professor at Universidade Federal de Uberlândia** (2015-2021) and 2+ years as **Research Group Leader at Hahn-Schickard Institute, Germany** (2022-2024), where I developed analytical methods and led R&D projects.
@@ -134,14 +148,12 @@ data-science-portfolio/
 **Note:** Large data files (gas-sensor batches, turbofan datasets, retail data) are gitignored. For local reproduction, see individual project READMEs for data source links.
 ---
 
-📫 Let's Connect
+## 📫 Let's Connect
 
-Looking for: Applied Data Scientist / Data Scientist roles in Industrial Analytics, Pharma, Diagnostics, or Manufacturing. Seeking opportunities to apply domain expertise to solve complex data problems.
+Looking for: **Applied Data Scientist / Data Scientist** roles in Industrial Analytics, Pharma, Diagnostics, or Manufacturing. Seeking opportunities to apply domain expertise to solve complex data problems.
 
-📧 Email: alexdbatista@gmail.com
+- 📧 **Email:** [alexdbatista@gmail.com](mailto:alexdbatista@gmail.com)
+- 🔗 **LinkedIn:** [linkedin.com/in/alexdbatista](https://linkedin.com/in/alexdbatista)
+- 💻 **GitHub:** [github.com/alexdbatista](https://github.com/alexdbatista)
 
-🔗 LinkedIn: linkedin.com/in/alexdbatista
-
-💻 GitHub: github.com/alexdbatista
-
-Languages: Portuguese (Native) | English (Fluent) | German (B1/Intermediate)
+**Languages:** Portuguese (Native) | English (Fluent) | German (B1/Intermediate)
