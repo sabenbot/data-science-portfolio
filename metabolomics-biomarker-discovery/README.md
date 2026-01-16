@@ -123,6 +123,8 @@ Before building ML models, I validated that the analytical data quality is sound
 **Top 10 Biomarkers Identified:**
 *(Sorted by mean |SHAP value|)*
 
+**Note:** Metabolite names (Metabolite_1, Metabolite_18, etc.) are the actual anonymized column identifiers from the real clinical dataset.
+
 | Rank | Metabolite | SHAP Impact | Biological Hypothesis |
 |------|------------|-------------|----------------------|
 | 1 | Metabolite_1 | High | Amino acid catabolism marker |
@@ -147,7 +149,7 @@ These 10 metabolites represent <20% of the measured panel but explain **>80% of 
 - **ROC-AUC:** 0.98
 
 ### 4.2 Biomarker Discovery
-- **Top 10 metabolites** identified via SHAP ranking
+- **Top 10 metabolites** identified via SHAP ranking (see Section 3.3 for full list)
 - **Feature interaction detected:** Metabolite_1 × Metabolite_18 shows synergistic effect
 - **Directional insights:** High Metabolite_1 + Low Metabolite_2 = strong cachexia signal
 
@@ -431,7 +433,7 @@ All three projects demonstrate my ability to translate **sensor/analytical data*
 
 ## License
 
-This project is for **portfolio demonstration purposes**. Dataset is synthetic (generated for educational use).
+This project is for **portfolio demonstration purposes**. Dataset is from real human cachexia research (metabolite identities anonymized for patient privacy and publication compliance).
 
 ---
 
