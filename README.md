@@ -6,21 +6,27 @@ Analytical Chemist | Data Scientist | 10+ Years in Research & Diagnostics
 
 ## 👨‍🔬 About Me
 
-I am an Analytical Chemist (PhD) transitioning to Data Science after 10+ years managing diagnostic systems and experimental research. I combine deep domain expertise in **instrumentation and signal processing** with modern machine learning to solve real-world problems in predictive maintenance, pharma, and industrial analytics.
+I am an Analytical Chemist (PhD, USP-Brazil) with a research career spanning academic leadership and applied industrial R&D. After 6 years as **Professor Adjunto at Universidade Federal de Uberlândia** (2015-2021) and 2+ years as **Research Group Leader at Hahn-Schickard Institute, Germany** (2022-2024), I now apply my expertise in **analytical instrumentation and data science** to solve complex problems in pharma, diagnostics, and industrial analytics.
 
-My background is not just "analyzing numbers"—it is about verifying the physical reality behind the data. I bring a rigorous **validation mindset** (checking for drift, noise, and reproducibility) that is often missing in standard data science workflows.
+My research background includes **50 peer-reviewed publications** (1,266 citations, h-index 18) in analytical chemistry, with expertise in molecularly imprinted polymers (MIPs), biosensors, and green analytical methods. I bring a **validation-first mindset** from a decade of managing analytical laboratories, where verifying data quality and understanding measurement uncertainty are fundamental—principles often missing in standard data science workflows.
 
 ---
 
 ## 💡 What Makes This Portfolio Different
 
-Unlike typical bootcamp portfolios, every analysis here is treated like a scientific experiment:
-- ✅ **Solves "Messy" Physical Problems:** Sensor drift, biological variability, and signal noise.
-- ✅ **Focuses on Validation:** Using rigorous cross-validation and stability checks, not just "Accuracy scores."
-- ✅ **Emphasizes Explainability:** Using SHAP and feature importance to tell the "Why," not just the "What."
-- ✅ **Bridges Disciplines:** Translating concepts from **Instrument Calibration** directly to **Machine Learning**.
+This portfolio bridges **analytical chemistry rigor** with **modern data science**. With a background that includes:
+- 6 years as university professor teaching analytical chemistry
+- 50+ peer-reviewed publications in analytical method development
+- Leadership of EU-funded research projects in Germany
+- Expertise in designing and validating analytical instruments
 
-I am not learning data science from scratch—I am adding ML to a decade of analytical thinking.
+Every analysis here applies the same experimental rigor I used in laboratory research:
+- ✅ **Physics-Informed Modeling:** Understanding sensor behavior, drift, and measurement uncertainty.
+- ✅ **Validation-First Approach:** Cross-validation, stability testing, and statistical rigor—not just accuracy scores.
+- ✅ **Explainability:** Using SHAP and chemometric techniques to understand "why," not just "what."
+- ✅ **Domain Translation:** Applying concepts from instrument calibration and method validation to ML pipelines.
+
+This is not a bootcamp portfolio—it's analytical chemistry expertise applied to data science problems.
 
 ---
 
@@ -77,20 +83,24 @@ I am not learning data science from scratch—I am adding ML to a decade of anal
 ## 🛠️ Technical Skills
 
 **Programming & Tools:**
-- **Python:** Pandas, NumPy, Scikit-Learn, SHAP, Matplotlib, Seaborn
-- **Data Engineering:** SQL, Data Cleaning, Feature Engineering
-- **Workflow:** Git, GitHub, Jupyter Notebooks, VS Code, Linux/Bash
+- **Python:** Pandas, NumPy, Scikit-Learn, SHAP, Matplotlib, Seaborn, SciPy
+- **Data Engineering:** SQL, Data Cleaning, Feature Engineering, ETL Pipelines
+- **Analytical Instrumentation:** LC-MS, GC-MS, HPLC, Spectroscopy (UV-Vis, FTIR), Electrochemistry
+- **Workflow:** Git, GitHub, Jupyter Notebooks, VS Code, Linux/Bash, LaTeX
 
 **Machine Learning Focus:**
-- **Tabular & Time-Series:** Random Forest, Gradient Boosting, Lasso/Ridge
-- **Validation:** Stratified Cross-Validation, Outlier Detection, Drift Monitoring
+- **Chemometrics & ML:** PCA, HCA, Random Forest, Gradient Boosting, Lasso/Ridge Regression
+- **Validation:** Stratified Cross-Validation, Outlier Detection, Drift Monitoring, DOE (Design of Experiments)
 - **Explainability:** SHAP, Permutation Importance, Partial Dependence Plots
+- **Time-Series:** Sensor drift detection, predictive maintenance, sequential data analysis
 
 **Domain Expertise:**
-- **10+ Years in Scientific Research:** Deep experience in experimental design and rigorous data validation.
-- **Instrument Diagnostics:** Expert in validating sensor performance and characterizing signal drift.
-- **Signal Processing:** Translating raw, noisy detector signals into reliable analytical results.
-- **Technical Leadership:** Experience bridging the gap between R&D engineering and data analysis teams.
+- **Analytical Chemistry & Instrumentation:** PhD from USP-Brazil (CENA), specializing in chromatography, spectroscopy, and electroanalytical methods.
+- **Biosensors & Smart Materials:** Developed molecularly imprinted polymers (MIPs) for SARS-CoV-2 detection (published in *Advanced Materials Interfaces*).
+- **Academic Leadership:** Former Professor Adjunto at UFU (2015-2021), teaching analytical chemistry and coordinating graduate programs.
+- **Industrial R&D Leadership:** Research Group Leader at Hahn-Schickard, Germany (2022-2024), managing EU-funded projects and industry partnerships.
+- **Publications:** 50 peer-reviewed papers, 1,266 citations (Web of Science), h-index 18.
+- **Green Chemistry & Sustainability:** Expertise in developing low-cost, portable analytical devices and environmentally friendly methods.
 
 ---
 
@@ -125,7 +135,7 @@ data-science-portfolio/
 
 📫 Let's Connect
 
-Looking for: Data Scientist / Analyst roles in Industrial Analytics, Pharma, or Predictive Maintenance.
+Looking for: Senior Data Scientist / Research Scientist roles in Industrial Analytics, Pharma R&D, or Diagnostics. Open to academic positions combining research and teaching.
 
 📧 Email: alexdbatista@gmail.com
 
