@@ -1,28 +1,52 @@
 # Data Science Portfolio
 **Alex Domingues Batista, PhD**
-Analytical Chemist | Data Scientist | 10+ Years in Research & Diagnostics
+Data Scientist | ML Engineer | Sensor Analytics & Diagnostics Specialist
+
+[![Humboldt Fellow](https://img.shields.io/badge/Humboldt-Fellow-green)]() [![Publications](https://img.shields.io/badge/Publications-50-blue)]() [![h--index](https://img.shields.io/badge/h--index-18-orange)]() [![Citations](https://img.shields.io/badge/Citations-1266-red)]()
+
+---
+
+## 🇩🇪 Germany Experience (2020-2024)
+
+- **🎓 Humboldt Research Fellow** - Ulm University (2020-2021)
+  - Developed molecularly imprinted polymers for SARS-CoV-2 detection (published in *Advanced Materials Interfaces*, 20+ citations)
+  - Biosensor design using ML-guided polymer optimization
+
+- **👨‍🔬 Research Group Leader** - Hahn-Schickard Institute (2022-2024)
+  - Led biosensor diagnostics research group (5+ researchers)
+  - Managed EU-funded research projects and industry partnerships
+  - Developed ML pipelines for real-time sensor data analysis and quality control
+  - Project acquisition and budget management for applied R&D
+
+- **🗣️ Languages:** Portuguese (Native) | English (Fluent) | German (B1 Intermediate)
 
 ---
 
 ## 🎯 Quick Summary
 
-**10+ years** combining analytical chemistry expertise with machine learning for pharma, diagnostics, and industrial analytics.
+**10+ years** combining machine learning with analytical chemistry for pharma, diagnostics, and Industry 4.0 applications.
 
 **Core Strengths:**
-- ✅ **Python & ML:** Scikit-Learn, SHAP, PCA, Random Forest, Time-Series Analysis
-- ✅ **Domain Expertise:** LC-MS, GC-MS, Sensor Instrumentation, Chemical Data
-- ✅ **Real-World ML:** Biomarker Discovery, Predictive Maintenance, Sensor Drift Detection
-- ✅ **Leadership:** Research Group Leader (Germany), Professor (Brazil), 50 Publications
+- ✅ **ML & Data Science:** Scikit-Learn, SHAP, Time-Series Analysis, Sensor Drift Detection, Anomaly Detection
+- ✅ **Domain Expertise:** Biosensors, Analytical Instrumentation, IoT Systems, Chemical Data
+- ✅ **Applied ML:** Biomarker Discovery, Predictive Maintenance, Quality Control, Real-Time Diagnostics
+- ✅ **Research Leadership:** Humboldt Fellow, Group Leader (Germany), Former Professor (Brazil), 50 Publications
 
-**Target Industries:** Pharma • Diagnostics • Manufacturing • Industry 4.0 / Smart Factory
+**Target Industries:** Pharma • Life Sciences • Diagnostics • Manufacturing • Industry 4.0 / IIoT
 
 ---
 
 ## 👨‍🔬 About Me
 
-I am an Analytical Chemist (PhD, USP-Brazil) applying my research expertise to **data science and machine learning** in industry. My background includes 6 years as **Professor at Universidade Federal de Uberlândia** (2015-2021) and 2+ years as **Research Group Leader at Hahn-Schickard Institute, Germany** (2022-2024), where I developed analytical methods and led R&D projects.
+I'm a **Data Scientist and ML Engineer** with 10+ years applying machine learning to analytical chemistry, sensor systems, and diagnostics. My career spans academia (PhD from USP-Brazil, 6 years as Professor at UFU) and industry R&D (Humboldt Fellow at Ulm University, Research Group Leader at Hahn-Schickard Institute in Germany).
 
-Now, I'm focused on **applied data science**—using my domain knowledge in instrumentation, chemistry, and experimental design to build better ML models for real-world problems in pharma, diagnostics, and Industry 4.0 applications. My research background (50 publications, 1,266 citations, h-index 18) gives me a unique advantage: I understand the **physical systems behind the data**, enabling me to build more robust and interpretable models for predictive maintenance, sensor analytics, and smart manufacturing.
+**What I bring to industry:**
+- **ML expertise with domain depth:** I've been applying chemometrics, PCA, time-series analysis, and predictive modeling to sensor data for over a decade—long before "data science" became mainstream.
+- **Research leadership experience:** Managed research groups, coordinated EU-funded projects, and collaborated with industry partners at Hahn-Schickard (2022-2024).
+- **Publication record:** 50 peer-reviewed papers (1,266 citations, h-index 18) in analytical methods, biosensors, and ML-enhanced diagnostics.
+- **Physical intuition:** I understand how sensors fail, how instruments drift, and how chemical systems behave—enabling me to build more robust models that account for real-world complexity.
+
+Now seeking **Data Scientist or ML Engineer roles in Germany** where I can apply this combination of ML skills and domain expertise to solve complex problems in pharma, diagnostics, or Industry 4.0.
 
 ---
 
@@ -105,19 +129,21 @@ I'm not just doing data science—I'm doing **better data science** because I un
 - **Analytical Instrumentation:** LC-MS, GC-MS, HPLC, Spectroscopy (UV-Vis, FTIR), Electrochemistry
 - **Workflow:** Git, GitHub, Jupyter Notebooks, VS Code, Linux/Bash, LaTeX
 
-**Machine Learning Focus:**
-- **Chemometrics & ML:** PCA, HCA, Random Forest, Gradient Boosting, Lasso/Ridge Regression
+**Machine Learning & Analytics:**
+- **Core ML:** Scikit-Learn, Random Forest, Gradient Boosting, Lasso/Ridge Regression, SVM
+- **Specialized Applications:** Time-Series Analysis, Sensor Drift Detection, Anomaly Detection, Predictive Maintenance
+- **Chemometrics:** PCA, HCA, PLS, Multivariate Analysis, Spectral Data Processing
 - **Validation:** Stratified Cross-Validation, Outlier Detection, Drift Monitoring, DOE (Design of Experiments)
-- **Explainability:** SHAP, Permutation Importance, Partial Dependence Plots
-- **Time-Series:** Sensor drift detection, predictive maintenance, sequential data analysis
+- **Explainability:** SHAP, Permutation Importance, Partial Dependence Plots, Feature Importance Analysis
 
-**Domain Expertise:**
-- **Analytical Chemistry & Instrumentation:** PhD from USP-Brazil (CENA), specializing in chromatography, spectroscopy, and electroanalytical methods.
-- **Biosensors & Smart Materials:** Developed molecularly imprinted polymers (MIPs) for SARS-CoV-2 detection (published in *Advanced Materials Interfaces*).
-- **Academic Leadership:** Former Professor Adjunto at UFU (2015-2021), teaching analytical chemistry and coordinating graduate programs.
-- **Industrial R&D Leadership:** Research Group Leader at Hahn-Schickard, Germany (2022-2024), managing EU-funded projects and industry partnerships.
-- **Publications:** 50 peer-reviewed papers, 1,266 citations (Web of Science), h-index 18.
-- **Green Chemistry & Sustainability:** Expertise in developing low-cost, portable analytical devices and environmentally friendly methods.
+**Domain Expertise & Research Background:**
+- **Sensor Systems & IoT:** 10+ years developing and optimizing biosensors, analytical instruments, and quality control systems
+- **Biosensors & Diagnostics:** Molecularly imprinted polymers (MIPs) for virus detection, real-time diagnostic systems (published in *Advanced Materials Interfaces*, 20+ citations)
+- **Industrial R&D:** Research Group Leader at Hahn-Schickard, Germany (2022-2024) - managed projects, coordinated industry partnerships, led EU project proposals
+- **Academic Background:** PhD (USP-Brazil), Humboldt Fellow (Ulm University), Former Professor (UFU, 2015-2021)
+- **Publications:** 50 peer-reviewed papers, 1,266 citations (Web of Science), h-index 18
+- **Instrumentation:** LC-MS, GC-MS, HPLC, Spectroscopy (UV-Vis, FTIR, Raman), Electrochemical sensors
+- **Sustainability Focus:** Developed low-cost, portable analytical devices and environmentally friendly methods
 
 ---
 
@@ -152,10 +178,31 @@ data-science-portfolio/
 
 ## 📫 Let's Connect
 
-Looking for: **Applied Data Scientist / Data Scientist** roles in Industry 4.0, Pharma, Diagnostics, or Manufacturing. Seeking opportunities to apply domain expertise to solve complex data problems.
+**Seeking:** Data Scientist / ML Engineer roles in Germany
 
+**Target Industries:** 
+- 🧬 Life Sciences & Pharma (Roche, Bayer, Merck, Sartorius)
+- 🔬 Diagnostics & Medical Devices (Siemens Healthineers, Bruker, Thermo Fisher)
+- 🏭 Industry 4.0 / IIoT (Siemens, Bosch, SAP)
+- 🧪 Analytical Instrumentation (PerkinElmer, Agilent)
+
+**Based in:** Germany (2020-2024) | Open to relocation within Germany  
+**Work Authorization:** [Specify: EU Blue Card eligible / Current visa status]
+
+**Contact:**
 - 📧 **Email:** [alexdbatista@gmail.com](mailto:alexdbatista@gmail.com)
 - 🔗 **LinkedIn:** [linkedin.com/in/alexdbatista](https://linkedin.com/in/alexdbatista)
 - 💻 **GitHub:** [github.com/alexdbatista](https://github.com/alexdbatista)
 
-**Languages:** Portuguese (Native) | English (Fluent) | German (B1/Intermediate)
+---
+
+## 🎓 Academic Credentials Summary
+*For German employers familiar with academic titles:*
+
+- **Dr. rer. nat. (equivalent)** - PhD, Universidade de São Paulo (USP)
+- **Humboldt Research Fellow** - Alexander von Humboldt Foundation (2020-2021)
+- **Former Professor** (UFU, Brazil, 2015-2021) - 6 years teaching & research
+- **Research Group Leader** (Hahn-Schickard, Germany, 2022-2024)
+- **50 peer-reviewed publications** | h-index: 18 | 1,266 citations
+
+**Languages:** Portuguese (Native) | English (Fluent) | German (B1 Intermediate)
