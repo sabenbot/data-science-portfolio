@@ -14,7 +14,7 @@ Analytical Chemist | Data Scientist | 10+ Years in Research & Diagnostics
 - ✅ **Real-World ML:** Biomarker Discovery, Predictive Maintenance, Sensor Drift Detection
 - ✅ **Leadership:** Research Group Leader (Germany), Professor (Brazil), 50 Publications
 
-**Target Industries:** Pharma • Diagnostics • Manufacturing • Industrial IoT
+**Target Industries:** Pharma • Diagnostics • Manufacturing • Industry 4.0 / Smart Factory
 
 ---
 
@@ -22,7 +22,7 @@ Analytical Chemist | Data Scientist | 10+ Years in Research & Diagnostics
 
 I am an Analytical Chemist (PhD, USP-Brazil) applying my research expertise to **data science and machine learning** in industry. My background includes 6 years as **Professor at Universidade Federal de Uberlândia** (2015-2021) and 2+ years as **Research Group Leader at Hahn-Schickard Institute, Germany** (2022-2024), where I developed analytical methods and led R&D projects.
 
-Now, I'm focused on **applied data science**—using my domain knowledge in instrumentation, chemistry, and experimental design to build better ML models for real-world problems in pharma, diagnostics, and industrial analytics. My research background (50 publications, 1,266 citations, h-index 18) gives me a unique advantage: I understand the **physical systems behind the data**, enabling me to build more robust and interpretable models.
+Now, I'm focused on **applied data science**—using my domain knowledge in instrumentation, chemistry, and experimental design to build better ML models for real-world problems in pharma, diagnostics, and Industry 4.0 applications. My research background (50 publications, 1,266 citations, h-index 18) gives me a unique advantage: I understand the **physical systems behind the data**, enabling me to build more robust and interpretable models for predictive maintenance, sensor analytics, and smart manufacturing.
 
 ---
 
