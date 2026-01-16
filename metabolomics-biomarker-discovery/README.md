@@ -271,13 +271,13 @@ scipy==1.17.0
 ## 7. Project Structure
 
 ```
-hplc/
+metabolomics-biomarker-discovery/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── 01_chemometric_eda.ipynb          # Exploratory data analysis
 ├── 02_biomarker_ml.ipynb             # Model training & comparison
 ├── 03_shap_interpretation.ipynb      # Explainable AI analysis
-└── data/
+└── ../data/
     └── human_cachexia.csv            # Metabolomics dataset (76 samples × 63 metabolites)
 ```
 
@@ -287,7 +287,7 @@ hplc/
 
 ### Step 1: Clone and Setup Environment
 ```bash
-cd hplc/
+cd metabolomics-biomarker-discovery/
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -314,7 +314,7 @@ jupyter notebook
 |---------|--------|---------------|-----------------|
 | **NASA Turbofan** | Predictive Maintenance | Time-series feature engineering | 20-cycle warning window |
 | **Gas Sensor Drift** | Concept Drift Detection | Adaptive retraining strategy | $5.3M cost savings |
-| **HPLC Metabolomics** | Biomarker Discovery | Explainable AI (SHAP) | 80% feature reduction, clinical trust |
+| **LC-MS Metabolomics** | Biomarker Discovery | Explainable AI (SHAP) | 80% feature reduction, clinical trust |
 
 **Common Thread:** 
 All three projects demonstrate my ability to translate **sensor/analytical data** into **actionable business insights** using **rigorous statistical validation** and **production-ready ML workflows**.
@@ -407,7 +407,7 @@ All three projects demonstrate my ability to translate **sensor/analytical data*
 - Portuguese: Native
 
 **Portfolio Projects:**
-- 🧬 [HPLC Metabolomics Biomarker Discovery](.) — This project
+- 🧬 [LC-MS Metabolomics Biomarker Discovery](.) — This project
 - 🚀 [NASA Turbofan Predictive Maintenance](../nasa-turbofan-predictive-maintenance/) — Industry 4.0
 - 🌫️ [Gas Sensor Drift Monitoring](../gas-sensor-drift-monitoring/) — Concept drift & AutoML
 

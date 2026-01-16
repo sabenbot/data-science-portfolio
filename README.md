@@ -30,7 +30,7 @@ I am not learning data science from scratch—I am adding ML to a decade of anal
 **Objective:** Identify biological markers for muscle wasting (Cachexia) using ML on high-dimensional chemical data.
 
 **Highlights:**
-- Analyzed real human cachexia dataset (77 samples, 63 metabolites) with high biological variability.
+- Analyzed real human cachexia dataset (76 samples, 63 metabolites) with high biological variability.
 - Performed chemometric QC using **Volcano Plots** and **PCA** to validate sample separation.
 - Compared **Lasso Regression** (for feature selection) vs. **Random Forest** (for non-linearity).
 - Identified key metabolic drivers (e.g., Glucose, 3-Hydroxybutyrate) using **SHAP values**.
@@ -120,7 +120,7 @@ data-science-portfolio/
     └── README.md
 ```
 
-**Note:** Data files for gas-sensor and nasa-turbofan projects need to be downloaded separately (see individual project READMEs for links).
+**Note:** Large data files (gas-sensor batches, turbofan datasets, retail data) are gitignored. For local reproduction, see individual project READMEs for data source links.
 ---
 
 📫 Let's Connect
