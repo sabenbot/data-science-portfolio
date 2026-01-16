@@ -15,10 +15,10 @@ Drawing on my 10+ years of experience in developing diagnostic systems and calib
 
 By applying advanced feature engineering (rolling statistics, lag features, cumulative trends, rate-of-change) to multivariate sensor time-series data, I:
 - ✅ Removed 43% of features (flatline sensors and constant settings)
-- ✅ Engineered 79 predictive features capturing degradation patterns
-- ✅ Built a **Gradient Boosting model achieving RMSE: 17.56 cycles** (8.8% of average lifespan)
-- ✅ Achieved **68.4% improvement** over baseline (55.54 → 17.56 cycles)
-- ✅ Reached **state-of-the-art performance** (R² = 0.949, competitive with literature benchmarks 12-18 cycles)
+- ✅ Engineered 86 predictive features capturing degradation patterns
+- ✅ Built a **Gradient Boosting model achieving RMSE: 17.25 cycles** (8.6% of average lifespan)
+- ✅ Achieved **68.9% improvement** over baseline (55.54 → 17.25 cycles)
+- ✅ Reached **state-of-the-art performance** (R² = 0.950, competitive with literature benchmarks 12-18 cycles)
 
 **Key Differentiator:** This project mirrors real-world industrial IoT challenges at KONUX — analyzing multivariate sensor data from critical infrastructure (railways ↔ aerospace), extracting meaningful patterns from noisy signals, and deploying production-ready predictive maintenance solutions.
 
@@ -49,10 +49,10 @@ Multivariate sensor data (21 sensors × 200 cycles) exhibits:
 
 **Implemented Solution:**
 Gradient Boosting regression model with advanced feature engineering:
-- **79 engineered features:** rolling statistics (mean/std/min/max), lag features (t-5, t-10), cumulative trends, rate-of-change
+- **86 engineered features:** rolling statistics (mean/std/min/max), lag features (t-5, t-10), cumulative trends, rate-of-change
 - **Time normalization:** Captures engine lifecycle positioning (87% feature importance)
 - **Cumulative sensor trends:** Tracks degradation patterns over operating hours
-- **Achievement: RMSE 17.56 cycles (8.8% of lifespan)** — exceeds target of <40 cycles, competitive with SOTA
+- **Achievement: RMSE 17.25 cycles (8.6% of lifespan)** — exceeds target of <40 cycles, competitive with SOTA
 
 ## 3. Methodology (Advanced Feature Engineering Pipeline)
 I treated the engine sensors like analytical detectors (e.g., HPLC/Spectroscopy), applying a rigorous multi-stage pipeline:
@@ -63,7 +63,7 @@ I treated the engine sensors like analytical detectors (e.g., HPLC/Spectroscopy)
     * *Result:* 14 sensors retained from original 21 (7 strong degradation indicators + 7 moderate contributors).
 
 * **Step 2: Advanced Feature Engineering (Notebook 03 + Enhanced)**
-    * **79 engineered features** from 7 core sensors:
+    * **86 engineered features** from 7 core sensors:
       - **Rolling statistics (window=10):** mean, std, min, max (captures short-term trends)
       - **Lag features:** t-5, t-10 (captures recent operational history)
       - **Rate-of-change:** First differences (captures degradation acceleration)
@@ -72,8 +72,8 @@ I treated the engine sensors like analytical detectors (e.g., HPLC/Spectroscopy)
     * *Key insight:* Cumulative features capture the irreversible nature of mechanical degradation.
 
 * **Step 3: Model Selection & Calibration**
-    * **Random Forest (baseline):** RMSE 22.14 cycles (R² = 0.918)
-    * **Gradient Boosting (winner):** RMSE 17.56 cycles (R² = 0.949)
+    * **Random Forest (baseline):** RMSE 22.21 cycles (R² = 0.918)
+    * **Gradient Boosting (winner):** RMSE 17.25 cycles (R² = 0.950)
     * **Validation Strategy:** Leave-One-Group-Out (train Engines 1-80, test 81-100) to ensure no data leakage.
     * **Hyperparameters:** 200 estimators, max_depth=5, learning_rate=0.05, subsample=0.8
 
@@ -83,27 +83,32 @@ I treated the engine sensors like analytical detectors (e.g., HPLC/Spectroscopy)
 | **Model** | **RMSE (cycles)** | **MAE (cycles)** | **R² Score** | **Error as % of Lifespan** |
 |-----------|-------------------|------------------|--------------|--------------------------|
 | Random Forest (Baseline) | 55.54 | 39.32 | 0.486 | 28% |
-| Random Forest (Enhanced) | 22.14 | 9.02 | 0.918 | 11% |
-| **Gradient Boosting (Final)** | **17.56** | **8.08** | **0.949** | **8.8%** |
+| Random Forest (Enhanced) | 22.21 | 9.07 | 0.918 | 11% |
+| **Gradient Boosting (Final)** | **17.25** | **7.89** | **0.950** | **8.6%** |
 
-**✨ Improvement:** 68.4% reduction in RMSE from baseline (55.54 → 17.56 cycles)
+**✨ Improvement:** 68.9% reduction in RMSE from baseline (55.54 → 17.25 cycles)
 
 ### 4.2 Feature Importance Analysis
 **Top 10 Predictive Features (Gradient Boosting):**
 1. **time_normalized (87.1%)** — Engine lifecycle position dominates predictions
-2. **s_7_cumsum (2.5%)** — Total pressure ratio cumulative trend
-3. **s_12_cumsum (2.2%)** — Static pressure cumulative degradation
-4. **s_3_cumsum (1.1%)** — Total temperature cumulative trend
+2. **s_7_cumsum (2.4%)** — Total pressure ratio cumulative trend
+3. **s_12_cumsum (2.3%)** — Static pressure cumulative degradation
+4. **s_3_cumsum (1.3%)** — Total temperature cumulative trend
 5. **s_15_cumsum (0.8%)** — Bypass ratio cumulative pattern
-6. **Other 74 features (6.3%)** — Granular temporal patterns
+6. **s_15_cummax (0.7%)** — Bypass ratio maximum values
+7. **s_11_cummax (0.7%)** — Static pressure maximum
+8. **s_4_cumsum (0.6%)** — Fan temperature cumulative trend
+9. **s_2_cumsum (0.6%)** — LPC speed cumulative
+10. **s_4_cummax (0.5%)** — Fan temperature maximum
+11. **Other 75 features (4.0%)** — Granular temporal patterns
 
 **Key Insight:** Engines degrade predictably over their operational lifespan. Cumulative sensor trends capture the irreversible nature of mechanical wear, making time normalization the strongest predictor.
 
 ### 4.3 Business Impact Assessment
-* **17.56-cycle prediction window** enables maintenance planning with 2-3 week lead time (assuming 200-cycle ≈ 6-month lifespan)
-* **8.8% error margin** allows precise scheduling without excessive safety buffers
+* **17.25-cycle prediction window** enables maintenance planning with 2-3 week lead time (assuming 200-cycle ≈ 6-month lifespan)
+* **8.6% error margin** allows precise scheduling without excessive safety buffers
 * **Competitive with SOTA:** Literature benchmarks for NASA CMAPSS range from 12-18 cycles RMSE
-* **Production readiness:** R² = 0.949 explains 94.9% of variance, indicating high model reliability
+* **Production readiness:** R² = 0.950 explains 95% of variance, indicating high model reliability
 
 ---
 
