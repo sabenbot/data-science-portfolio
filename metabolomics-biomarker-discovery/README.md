@@ -394,7 +394,6 @@ All three projects demonstrate my ability to translate **sensor/analytical data*
 **Background:** 10+ years in Analytical Chemistry, R&D, and Diagnostic Systems  
 **Transition:** Analytical Instrumentation → Data Science & Machine Learning  
 **Location:** Open to opportunities in Germany (Berlin, Munich, Frankfurt, Hamburg regions)  
-**Visa Status:** [Specify: EU citizen / Blue Card eligible / other]
 
 **Target Roles:**
 - Data Scientist (Pharma/Biotech/Diagnostics)
@@ -404,7 +403,7 @@ All three projects demonstrate my ability to translate **sensor/analytical data*
 
 **Languages:**
 - English: Fluent (technical + business communication)
-- German: [Specify level: B2/C1 or learning]
+- German: B1
 - Portuguese: Native
 
 **Portfolio Projects:**
