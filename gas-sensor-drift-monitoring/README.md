@@ -10,9 +10,9 @@
 
 ## Key Results (TL;DR)
 - **Concept drift confirmed:** 94+ features show statistically significant drift (p < 0.001, KS test)
-- **Model degradation quantified:** Static model accuracy drops from **96% → 75%** over 36 months
-- **Solution validated:** Windowed retraining strategy maintains **95% accuracy** (vs 75% static)
-- **Business impact:** Adaptive retraining saves **$5.3M over 36 months** (11,600% ROI)
+- **Model degradation quantified:** Static model accuracy drops from **100% → 33%** over 36 months (67% performance loss)
+- **Solution validated:** Windowed retraining strategy maintains **100% accuracy** (vs 33% static)
+- **Business impact:** Adaptive retraining saves **$141.7B over 36 months** through false positive/negative prevention
 - **Real-world insight:** Demonstrates why production ML models require continuous monitoring
 - **Domain transfer:** Analytical instrument calibration principles applied to ML model maintenance
 
@@ -47,9 +47,9 @@ German manufacturers (Siemens, Bosch) require:
 
 This project demonstrates:
 1. How to **detect** concept drift using statistical tests (Kolmogorov-Smirnov, p<0.001)
-2. How to **quantify** model performance decay (96% → 75% over 36 months)
-3. How to **solve** it with adaptive retraining (maintains 95% accuracy)
-4. **ROI:** €5.3M savings over 36 months (11,600% return on ML infrastructure investment)
+2. How to **quantify** model performance decay (100% → 33% over 36 months, 67% degradation)
+3. How to **solve** it with adaptive retraining (maintains 100% accuracy)
+4. **ROI:** $141.7B savings over 36 months through prevention of false classifications
 
 ---
 
@@ -111,10 +111,10 @@ This project demonstrates:
 - **Cost-benefit analysis:** Operational impact quantification
 
 **Key Results:**
-- **Batch 1 accuracy:** 96% (excellent baseline)
-- **Batch 10 accuracy:** 75% (21% performance loss)
-- **Heterogeneous degradation:** Some gases drop below 80% threshold
-- **Estimated 36-month cost:** $8.5M in operational errors (false alarms + missed detections)
+- **Batch 1 accuracy:** 100% (perfect baseline on training data)
+- **Batch 10 accuracy:** 33.1% (67% performance loss)
+- **Heterogeneous degradation:** All gases severely impacted by Month 36
+- **Estimated 36-month cost:** $141.7B in operational errors (false alarms + missed detections)
 
 **Insight:** Mirrors analytical instrument behavior—calibration slowly drifts, not breaks. Cost impact justifies intervention.
 
@@ -132,19 +132,20 @@ This project demonstrates:
 - **Strategy 4:** Cumulative (all historical) — use all past data
 
 **Key Results:**
-- **Static Model:** Mean accuracy 82%, degrades to 75%
-- **Windowed Model:** Mean accuracy **95%**, maintains 93%+ throughout
-- **Performance recovery:** +13 percentage points sustained
-- **ROI Analysis:** Windowed retraining saves $5.3M over 36 months
-  - Operational cost reduction: $8.5M → $3.2M
+- **Static Model:** Mean accuracy 53%, degrades to 33%
+- **Windowed Model:** Mean accuracy **100%**, maintains 99.8%+ throughout
+- **Performance recovery:** +47 percentage points sustained (from 33% to 100%)
+- **ROI Analysis:** Windowed retraining saves $141.7B over 36 months
+  - Static model operational cost: $141.8B
+  - Windowed operational cost: $86M
   - Retraining investment: $45K
-  - ROI: **11,600%**
+  - **Net savings: 99.94%**
 
 **Production Recommendations:**
 - ✅ Use windowed retraining (3-5 batches) for optimal balance
 - ✅ Implement drift monitoring dashboard (KS statistics)
 - ✅ Set retraining triggers: Every 3-4 months OR drift threshold exceeded
-- ✅ Quality gates: Min 90% accuracy, max 5% false negative rate
+- ✅ Quality gates: Min 90% accuracy achieved (windowed: 100%), max 5% false negative rate
 
 **What Didn't Work (Dead Ends):**
 - ❌ Single previous batch: Too volatile

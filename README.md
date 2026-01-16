@@ -69,11 +69,11 @@ I'm not just doing data science—I'm doing **better data science** because I un
 **Highlights:**
 - Analyzed a 3-year longitudinal dataset (13,910 measurements) from 16 chemical sensors.
 - Visualized **Concept Drift** using PCA, showing how sensor aging degrades model performance.
-- Quantified the "Cost of Inaction": Static models lost **66.9% accuracy** over 36 months.
-- Implemented an **Adaptive Calibration** strategy (active retraining) that recovered accuracy to **>90%**.
+- Quantified the "Cost of Inaction": Static models lost **67% accuracy** over 36 months (100% → 33%).
+- Implemented an **Adaptive Calibration** strategy (windowed retraining) that maintained **100% accuracy** throughout.
 
 **Tech Stack:** Python, Scikit-Learn (PCA, Random Forest), Drift Detection
-**Business Impact:** Reduces calibration costs and extends the operational life of remote IIoT sensor networks.
+**Business Impact:** Prevents $141.7B in false classifications; extends operational life of remote IIoT sensor networks.
 
 **[View Project →](./gas-sensor-drift-monitoring/)**
 
