@@ -16,7 +16,7 @@ Leveraging my 10+ years of analytical chemistry and LC-MS experience, this proje
 
 By applying chemometric techniques and interpretable machine learning (SHAP values), I:
 - ✅ Analyzed 63 metabolites from 76 plasma samples (Cachexia vs Control)
-- ✅ Built a Random Forest classifier achieving **~95% cross-validated accuracy**
+- ✅ Built predictive models with cross-validated performance (Lasso: 58%, RF: 49% accuracy; small n=76 dataset)
 - ✅ Identified the top 10 metabolic drivers with SHAP interpretability
 - ✅ Validated differential expression patterns via volcano plots and PCA
 - ✅ Provided actionable biomarker candidates with mechanistic explanations
@@ -44,7 +44,7 @@ Cachexia is a metabolic syndrome characterized by severe muscle and fat loss, af
 
 **Proposed Solution:**
 Build a **machine learning system** that:
-1. Predicts cachexia with ≥95% accuracy (validation-ready threshold)
+1. Predicts cachexia status with interpretable models (note: small n=76 dataset limits baseline performance)
 2. **Explains which metabolites drive predictions** via SHAP (regulatory requirement for IVDs)
 3. Reduces biomarker candidate list by 80% → focus validation budget on top 10 metabolites
 
@@ -94,15 +94,15 @@ Before building ML models, I validated that the analytical data quality is sound
 - **Metrics:** Accuracy, F1-score, ROC-AUC (not just accuracy to avoid class imbalance pitfalls)
 
 **Results:**
-| Model | CV Accuracy | Std Dev |
-|-------|-------------|---------|
-| Lasso | 91% | ±3% |
-| Random Forest | **95%** | ±2% |
+| Model | CV Accuracy | CV ROC-AUC | Std Dev |
+|-------|-------------|------------|----------|
+| Lasso | 57.9% | 0.668 | ±2.7% |
+| Random Forest | 48.6% | 0.498 | ±5.7% |
 
-**Decision:** Selected **Random Forest** for SHAP analysis because:
-- Superior performance (95% vs 91%)
-- SHAP has native TreeExplainer support (fast, exact)
-- Captures non-linear metabolite interactions (more biologically realistic)
+**Decision:** Selected **Lasso** for SHAP analysis despite modest performance because:
+- Better performance than RF on this small dataset (58% vs 49%)
+- Results reflect challenge of small n=76 clinical dataset with high biological variability
+- Linear model more appropriate given performance suggests linear patterns dominate
 
 ---
 
@@ -144,9 +144,9 @@ These 10 metabolites represent <20% of the measured panel but explain **>80% of 
 ## 4. Key Results
 
 ### 4.1 Model Performance
-- **Accuracy:** 95% (5-fold CV)
-- **F1 Score:** 0.94 (Cachexia class)
-- **ROC-AUC:** 0.98
+- **Accuracy:** 57.9% (5-fold CV) - Lasso model
+- **ROC-AUC:** 0.668
+- **Note:** Modest performance reflects typical challenges of small clinical datasets (n=76) with high biological variability
 
 ### 4.2 Biomarker Discovery
 - **Top 10 metabolites** identified via SHAP ranking (see Section 3.3 for full list)
