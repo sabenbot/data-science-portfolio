@@ -1,12 +1,14 @@
 # Data Science Portfolio
 **Alex Domingues Batista, PhD**  
-**Applied Data Scientist (Sensor/Time-Series) | Diagnostics & Instrumentation Analytics | Python • SQL • ML**
+**Applied Data Scientist | MedTech • Life Sciences • Instrumentation Analytics | Python • SQL • ML**
 
-Portfolio of end-to-end projects focused on **measurement/sensor data**, **concept drift**, **predictive maintenance**, and **diagnostics-style analytics** — built with a validation-first mindset (noise, reproducibility, interpretability).
+Portfolio of end-to-end projects focused on **healthcare/clinical AI**, **sensor/measurement data**, **concept drift**, **predictive maintenance**, and **diagnostics analytics** — built with a validation-first mindset (clinical safety, reproducibility, explainability).
 
 ---
 
 ## Start here (2 minutes)
+- **GuardianCGM: Clinical Glucose Prediction AI** — regulatory-aware MedTech pipeline with Clarke Error Grid validation + SHAP explainability  
+  → `./GuardianCGM/`
 - **Gas Sensor Drift & Calibration Transfer** — concept drift + adaptive retraining to maintain performance over time  
   → `./gas-sensor-drift-monitoring/`
 - **Predictive Maintenance (NASA Turbofan RUL)** — leakage-safe evaluation + interpretable monitoring outputs  
@@ -43,7 +45,24 @@ Portfolio of end-to-end projects focused on **measurement/sensor data**, **conce
 
 ## Featured projects
 
-### 1) Explainable AI for Biomarker Prioritization (LC–MS Metabolomics)
+### 1) 🩸 GuardianCGM: Clinical Glucose Prediction AI (MedTech/Pharma)
+**Objective:** Build a regulatory-aware, end-to-end pipeline for 30-minute glucose forecasting using Continuous Glucose Monitoring (CGM) data.
+
+**Highlights**
+- **Chemistry + Data Science:** Signal processing with Savitzky-Golay filtering and electrochemistry context from PhD background.
+- **Clinical Validation:** Clarke Error Grid analysis showing **99.4% Zone A** (exceeds FDA target of >95% in Zones A+B).
+- **Model Comparison:** Tested baseline/Linear Regression/Random Forest; achieved **RMSE 4.81 mg/dL** (38.9% improvement over baseline).
+- **Uncertainty Quantification:** 95% prediction intervals with **94.7% calibration coverage** for risk-aware clinical decisions.
+- **Explainability:** SHAP analysis for regulatory transparency and clinical trust.
+- **Production Ready:** FastAPI REST API example with Pydantic validation and async support.
+
+**Tech stack:** Python, SciPy, scikit-learn, SHAP, FastAPI, Plotly  
+**Target audience:** MedTech, pharma, digital health roles (Roche, Siemens Healthineers, Abbott)  
+**Project:** `./GuardianCGM/`
+
+---
+
+### 2) 🔬 Explainable AI for Biomarker Prioritization (LC–MS Metabolomics)
 **Objective:** Build an interpretable ML pipeline to prioritize candidate biomarkers from high-dimensional assay data.
 
 **Highlights**
@@ -57,7 +76,7 @@ Portfolio of end-to-end projects focused on **measurement/sensor data**, **conce
 
 ---
 
-### 2) Gas Sensor Drift & Calibration Transfer (Concept Drift)
+### 3) 📊 Gas Sensor Drift & Calibration Transfer (Concept Drift)
 **Objective:** Quantify long-term drift and evaluate strategies to keep sensor models stable over time.
 
 **Highlights**
@@ -71,7 +90,7 @@ Portfolio of end-to-end projects focused on **measurement/sensor data**, **conce
 
 ---
 
-### 3) NASA Turbofan Predictive Maintenance (RUL)
+### 4) 🔧 NASA Turbofan Predictive Maintenance (RUL)
 **Objective:** Predict Remaining Useful Life (RUL) from multivariate engine sensor time-series and create monitoring-ready outputs.
 
 **Highlights**
@@ -82,6 +101,39 @@ Portfolio of end-to-end projects focused on **measurement/sensor data**, **conce
 
 **Tech stack:** Python, time-series feature engineering, Gradient Boosting / Random Forest  
 **Project:** `./nasa-turbofan-predictive-maintenance/`
+
+---
+
+### 5) 🛒 RFM Customer Segmentation (Retail Analytics)
+**Objective:** Create actionable customer segments with statistical validation and business-ready insights.
+
+**Highlights**
+- Segmented **4,372 customers** from UCI Online Retail dataset (~540k transactions) into **5 groups**.
+- **Revenue concentration:** Top segment contributes ~60% of revenue.
+- **Statistical validation:** ANOVA p < 0.001 confirms segments are significantly different.
+- **Method comparison:** 70-80% agreement between RFM scoring and K-Means clustering.
+- **Stability testing:** >80% assignment consistency when changing parameters (quartiles → quintiles).
+- **CLV insight:** Champions £6,732 vs Hibernating £222 (~30× difference).
+
+**Tech stack:** Python, Pandas, scikit-learn, SciPy (ANOVA), Seaborn  
+**Business value:** Retention prioritization, lifecycle marketing, churn prevention  
+**Project:** `./retail-customer-segmentation/`
+
+---
+
+### 6) 🧪 ToxPred AI: ADMET Screening Platform (Cheminformatics)
+**Objective:** Accelerate early-stage drug discovery by predicting molecular properties before synthesis.
+
+**Highlights**
+- **Solubility prediction:** Random Forest on Delaney (ESOL) dataset (R² ≈ 0.87).
+- **Toxicity screening:** Classifier on ClinTox dataset (76% accuracy) to flag clinical trial failures.
+- **BBB permeability:** Predicts CNS penetration for neuro-drug discovery (ROC-AUC ≈ 0.85).
+- **Structural intelligence:** Uses Morgan Fingerprints (ECFP4, 2048-bit) for substructure analysis.
+- **Streamlit web app:** Interactive deployment with real-time predictions and Lipinski Rule of Five.
+
+**Tech stack:** Python, RDKit, scikit-learn, Streamlit, DeepChem datasets  
+**Target audience:** Pharma R&D, computational chemistry, medicinal chemistry  
+**Project:** `./toxpred/`
 
 ---
 
@@ -99,23 +151,40 @@ data-science-portfolio/
 ├── README.md
 ├── data/
 │   └── human_cachexia.csv
-├── metabolomics-biomarker-discovery/
+├── GuardianCGM/                                     # 🩸 MedTech glucose prediction
+│   ├── 01_Signal_Processing_and_EDA.ipynb
+│   ├── 02_Model_Training_and_Clinical_Evaluation.ipynb
+│   ├── 03_Model_Deployment_and_Inference.ipynb
+│   ├── data/processed_biomarkers.csv
+│   ├── models/glucose_rf_v1.pkl
+│   ├── README.md
+│   └── requirements.txt
+├── metabolomics-biomarker-discovery/                # 🔬 Diagnostics biomarker ML
 │   ├── 01_chemometric_eda.ipynb
 │   ├── 02_biomarker_ml.ipynb
 │   ├── 03_shap_interpretation.ipynb
 │   ├── README.md
 │   └── requirements.txt
-├── gas-sensor-drift-monitoring/
+├── gas-sensor-drift-monitoring/                     # 📊 Concept drift analytics
 │   ├── 01_visualizing_the_drift.ipynb
 │   ├── 02_model_decay_analysis.ipynb
 │   ├── 03_adaptive_calibration.ipynb
 │   ├── README.md
 │   └── requirements.txt
-└── nasa-turbofan-predictive-maintenance/
-    ├── 01_data_exploration.ipynb
-    ├── 02_data_quality_and_drift.ipynb
-    ├── 03_predictive_modeling.ipynb
-    └── README.md
+├── nasa-turbofan-predictive-maintenance/            # 🔧 Time-series RUL prediction
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_quality_and_drift.ipynb
+│   ├── 03_predictive_modeling.ipynb
+│   └── README.md
+├── retail-customer-segmentation/                    # 🛒 RFM + K-Means segmentation
+│   ├── RFM_Customer_Segmentation.ipynb
+│   ├── README.md
+│   └── requirements.txt
+└── toxpred/                                         # 🧪 Cheminformatics ADMET app
+    ├── toxpred_app.py
+    ├── setup_models.py
+    ├── README.md
+    └── requirements.txt
 ```
 
 **Note:** Large data files (gas-sensor batches, turbofan datasets, retail data) are gitignored. For local reproduction, see individual project READMEs for data source links.
