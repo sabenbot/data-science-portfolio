@@ -219,4 +219,4 @@ data-science-portfolio/
 - **50 peer-reviewed publications** | h-index: 18 | 1,266 citations
 
 **Languages:** Portuguese (Native) | English (Fluent) | German (B1 Intermediate)
->>>>>>> 57cfe223350d68b34632d445dc6bf0fb681b066d
+
