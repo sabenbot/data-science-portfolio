@@ -56,7 +56,7 @@ The project is structured as a modular, three-stage pipeline:
     - Calibration validation: 94.7% coverage (target 95%)
 - **Clinical Safety Validation:**
     - **Clarke Error Grid:** 99.4% Zone A, 0.6% Zone B (100% clinically safe)
-    - Exceeds FDA target of >95% in Zones A+B
+    - Clarke Error Grid Zones A+B commonly used as CGM validation standard (>95% target)
     - Full zone-by-zone breakdown and visualization
 - **Explainability:** SHAP summary plots, force plots, and feature impact analysis for regulatory transparency
 - **Model Persistence:** Saved to `models/glucose_rf_v1.pkl` with joblib

@@ -1,6 +1,6 @@
 # Data Science Portfolio
 **Alex Domingues Batista, PhD**  
-**Applied Data Scientist | MedTech • Life Sciences • Instrumentation Analytics | Python • SQL • ML**
+**Digital Biomarker Data Scientist | CGM & Health Time-Series | Python • ML • Regulatory-aware Validation**
 
 Portfolio of end-to-end projects focused on **healthcare/clinical AI**, **sensor/measurement data**, **concept drift**, **predictive maintenance**, and **diagnostics analytics** — built with a validation-first mindset (clinical safety, reproducibility, explainability).
 
@@ -29,7 +29,14 @@ Portfolio of end-to-end projects focused on **healthcare/clinical AI**, **sensor
 
 **What I can deliver in 30–60 days:** a data-quality + drift monitoring baseline, an interpretable model, and a simple dashboard/report your team can use.
 
-**Target industries:** Instrumentation • Diagnostics • Life Sciences • Manufacturing • Industry 4.0 / IIoT
+**Target industries:** Digital Health • Diabetes Care • SaMD / Medical Device Analytics • Instrumentation • Diagnostics • Life Sciences • Manufacturing • Industry 4.0 / IIoT
+
+**Software engineering practices:**
+- **Version control:** Git workflow with clear commit messages and branch management
+- **Code quality:** PEP8 style compliance, modular architecture, reusable functions
+- **Reproducibility:** Requirements files, virtual environments, documented dependencies
+- **Documentation:** Inline comments, docstrings, and comprehensive README files
+- **Testing mindset:** Validation checks, data quality assertions, and reproducible results
 
 ---
 
@@ -50,7 +57,7 @@ Portfolio of end-to-end projects focused on **healthcare/clinical AI**, **sensor
 
 **Highlights**
 - **Chemistry + Data Science:** Signal processing with Savitzky-Golay filtering and electrochemistry context from PhD background.
-- **Clinical Validation:** Clarke Error Grid analysis showing **99.4% Zone A** (exceeds FDA target of >95% in Zones A+B).
+- **Clinical Validation:** Clarke Error Grid analysis showing **99.4% Zone A** (Zones A+B commonly used in CGM evaluation).
 - **Model Comparison:** Tested baseline/Linear Regression/Random Forest; achieved **RMSE 4.81 mg/dL** (38.9% improvement over baseline).
 - **Uncertainty Quantification:** 95% prediction intervals with **94.7% calibration coverage** for risk-aware clinical decisions.
 - **Explainability:** SHAP analysis for regulatory transparency and clinical trust.
